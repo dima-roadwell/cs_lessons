@@ -27,12 +27,6 @@ int SumDigit(int number)
         number /= 10;
     }
 
-    // while(number > 99)
-    // {
-    //     number %=  10;
-    //     sum += number;
-    // }
-
     return sum;
 }
 
