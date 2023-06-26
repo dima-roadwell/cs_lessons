@@ -3,8 +3,6 @@
 
 double[] CreateArray(int countArrElems)
 {
-    Random rnd = new Random();
-
     double[] numArr = new double[countArrElems];
 
     for(int i = 0; i < countArrElems; i++)
