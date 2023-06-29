@@ -7,7 +7,7 @@
 int InputNum()
 {
     System.Console.Write("Input Num: ");
-    string number = Console.ReadLine();
+    string? number = Console.ReadLine();
 
     if(int.TryParse(number, out int num))
     {
