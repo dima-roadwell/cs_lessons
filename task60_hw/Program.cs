@@ -50,6 +50,7 @@ int RandomizeNonRecurringNum(int num, int[] usedNum, Random rand)
         {
             num = rand.Next(10, 100);
             RandomizeNonRecurringNum(num, usedNum, rand);
+            break;
         }
     }
 
