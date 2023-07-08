@@ -2,7 +2,7 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
-void PrintRange(int m, int n, int sum)
+void PrintSum(int m, int n, int sum)
 {
     if(m == n + 1)
     {
@@ -13,7 +13,7 @@ void PrintRange(int m, int n, int sum)
     sum += m;
     
     m++;
-    PrintRange(m, n, sum);
+    PrintSum(m, n, sum);
 }
 
 void Main()
@@ -25,9 +25,7 @@ void Main()
 
     int sum = 0;
 
-    
-
-    PrintRange(m, n, sum);
+    PrintSum(m, n, sum);
 
     System.Console.WriteLine();
 }
